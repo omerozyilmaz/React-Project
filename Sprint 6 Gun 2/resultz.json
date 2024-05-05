@@ -1,0 +1,54 @@
+{
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 3,
+  "numPassedTests": 3,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1714931301906,
+  "success": true,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Gönderiler componenti render oluyor",
+          "status": "passed",
+          "title": "Gönderiler componenti render oluyor",
+          "duration": 46,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Arama Çubuğuna doğru proplar gönderiliyor ve search yapabiliyor.",
+          "status": "passed",
+          "title": "Arama Çubuğuna doğru proplar gönderiliyor ve search yapabiliyor.",
+          "duration": 10,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Gönderiler componentine doğru proplar gönderiliyor ve like yapabiliyor.",
+          "status": "passed",
+          "title": "Gönderiler componentine doğru proplar gönderiliyor ve like yapabiliyor.",
+          "duration": 8,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1714931302519,
+      "endTime": 1714931302583,
+      "status": "passed",
+      "message": "",
+      "name": "/Users/omerozyilmaz/Desktop/React Project/Sprint 6 Gun 2/src/__tests__/index.test.jsx"
+    }
+  ]
+}
