@@ -1,0 +1,90 @@
+{
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 6,
+  "numPassedTests": 5,
+  "numFailedTests": 1,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1715107049800,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App jsx'e Reactstrap için bootstrap css'i eklenmiş",
+          "status": "passed",
+          "title": "App jsx'e Reactstrap için bootstrap css'i eklenmiş",
+          "duration": 17,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App jsx'de kullanıcılar için state tanımlanmış",
+          "status": "passed",
+          "title": "App jsx'de kullanıcılar için state tanımlanmış",
+          "duration": 6,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App jsx'de kullanıcılar için state'de başlangıç değeri boş array yapılmış",
+          "status": "passed",
+          "title": "App jsx'de kullanıcılar için state'de başlangıç değeri boş array yapılmış",
+          "duration": 3,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsx'de SideBar componentine prop olarak kullanıcılar gönderiliyor.",
+          "status": "passed",
+          "title": "App.jsx'de SideBar componentine prop olarak kullanıcılar gönderiliyor.",
+          "duration": 5,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsx'de Main componentine kayıtlı kullanıcıyı kullanıcılar listesine eklemek için gerekli prop  gönderiliyor.",
+          "status": "passed",
+          "title": "App.jsx'de Main componentine kayıtlı kullanıcıyı kullanıcılar listesine eklemek için gerekli prop  gönderiliyor.",
+          "duration": 6,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Form doldurulunca kullanıcı kayıt oluyor",
+          "status": "failed",
+          "title": "Form doldurulunca kullanıcı kayıt oluyor",
+          "duration": 1188,
+          "failureMessages": [
+            "Unable to find an element with the text: /Emre Şahiner/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<header>\u001b[39m\n      \u001b[36m<h1>\u001b[39m\n        \u001b[0mTeam Builder\u001b[0m\n      \u001b[36m</h1>\u001b[39m\n    \u001b[36m</header>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"content-section\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"side-container\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h2>\u001b[39m\n          \u001b[0mUsers\u001b[0m\n        \u001b[36m</h2>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<form\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"mb-3\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<label\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"form-label\"\u001b[39m\n            \u001b[33mfor\u001b[39m=\u001b[32m\"adSoyad\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mAd Soyad:\u001b[0m\n          \u001b[36m</label>\u001b[39m\n          \u001b[36m<input\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"form-control\"\u001b[39m\n            \u001b[33mid\u001b[39m=\u001b[32m\"adSoyad\"\u001b[39m\n            \u001b[33mname\u001b[39m=\u001b[32m\"adSoyad\"\u001b[39m\n            \u001b[33mplaceholder\u001b[39m=\u001b[32m\"Çalışanın tam adı ve soyadı\"\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"text\"\u001b[39m\n            \u001b[33mvalue\u001b[39m=\u001b[32m\"Emre Şahiner\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"mb-3\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<label\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"form-label\"\u001b[39m\n            \u001b[33mfor\u001b[39m=\u001b[32m\"exampleEmail\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mEmail\u001b[0m\n          \u001b[36m</label>\u001b[39m\n          \u001b[36m<input\u001b[39m\n            \u001b[33malue\u001b[39m=\u001b[32m\"\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"form-control\"\u001b[39m\n            \u001b[33mid\u001b[39m=\u001b[32m\"exampleEmail\"\u001b[39m\n            \u001b[33mname\u001b[39m=\u001b[32m\"exampleEmail\"\u001b[39m\n            \u001b[33mplaceholder\u001b[39m=\u001b[32m\"Kurumsal email adresi\"\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"email\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"mb-3\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<label\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"form-label\"\u001b[39m\n            \u001b[33mfor\u001b[39m=\u001b[32m\"exampleDepartman\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mDepartman\u001b[0m\n          \u001b[36m</label>\u001b[39m\n          \u001b[36m<input\u001b[39m\n            \u001b[33malue\u001b[39m=\u001b[32m\"\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"form-control\"\u001b[39m\n            \u001b[33mid\u001b[39m=\u001b[32m\"exampleDepartman\"\u001b[39m\n            \u001b[33mname\u001b[39m=\u001b[32m\"exampleDepartman\"\u001b[39m\n            \u001b[33mplaceholder\u001b[39m=\u001b[32m\"Çalıştığı departman\"\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"text\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"mb-3\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<label\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"form-label\"\u001b[39m\n            \u001b[33mfor\u001b[39m=\u001b[32m\"exampleUnvan\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mÜnvan\u001b[0m\n          \u001b[36m</label>\u001b[39m\n          \u001b[36m<input\u001b[39m\n            \u001b[33malue\u001b[39m=\u001b[32m\"\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"form-control\"\u001b[39m\n            \u001b[33mid\u001b[39m=\u001b[32m\"exampleUnvan\"\u001b[39m\n            \u001b[33mname\u001b[39m=\u001b[32m\"exampleUnvan\"\u001b[39m\n            \u001b[33mplaceholder\u001b[39m=\u001b[32m\"Çalışanın ünvanı\"\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"text\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"mb-3\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<label\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"form-label\"\u001b[39m\n            \u001b[33mfor\u001b[39m=\u001b[32m\"exampleGorev\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mTakım İçi Görevleri:\u001b[0m\n          \u001b[36m</label>\u001b[39m\n          \u001b[36m<textarea\u001b[39m\n            \u001b[33malue\u001b[39m=\u001b[32m\"\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"form-control\"\u001b[39m\n            \u001b[33mid\u001b[39m=\u001b[32m\"exampleGorev\"\u001b[39m\n            \u001b[33mname\u001b[39m=\u001b[32m\"exampleGorev\"\u001b[39m\n            \u001b[33mplaceholder\u001b[39m=\u001b[32m\"Çalışanın takım içerisindeki görev listesi\"\u001b[39m\n            \u001b[33mrows\u001b[39m=\u001b[32m\"8\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"text-center mb-3\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"btn btn-secondary\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mKaydet\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</form>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n    \u001b[36m<footer>\u001b[39m\n      \u001b[36m<p>\u001b[39m\n        \u001b[0mCopyright @ 2023\u001b[0m\n      \u001b[36m</p>\u001b[39m\n    \u001b[36m</footer>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<header>\u001b[39m\n      \u001b[36m<h1>\u001b[39m\n        \u001b[0mTeam Builder\u001b[0m\n      \u001b[36m</h1>\u001b[39m\n    \u001b[36m</header>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"content-section\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"side-container\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h2>\u001b[39m\n          \u001b[0mUsers\u001b[0m\n        \u001b[36m</h2>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<form\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"mb-3\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<label\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"form-label\"\u001b[39m\n            \u001b[33mfor\u001b[39m=\u001b[32m\"adSoyad\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mAd Soyad:\u001b[0m\n          \u001b[36m</label>\u001b[39m\n          \u001b[36m<input\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"form-control\"\u001b[39m\n            \u001b[33mid\u001b[39m=\u001b[32m\"adSoyad\"\u001b[39m\n            \u001b[33mname\u001b[39m=\u001b[32m\"adSoyad\"\u001b[39m\n            \u001b[33mplaceholder\u001b[39m=\u001b[32m\"Çalışanın tam adı ve soyadı\"\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"text\"\u001b[39m\n            \u001b[33mvalue\u001b[39m=\u001b[32m\"Emre Şahiner\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"mb-3\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<label\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"form-label\"\u001b[39m\n            \u001b[33mfor\u001b[39m=\u001b[32m\"exampleEmail\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mEmail\u001b[0m\n          \u001b[36m</label>\u001b[39m\n          \u001b[36m<input\u001b[39m\n            \u001b[33malue\u001b[39m=\u001b[32m\"\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"form-control\"\u001b[39m\n            \u001b[33mid\u001b[39m=\u001b[32m\"exampleEmail\"\u001b[39m\n            \u001b[33mname\u001b[39m=\u001b[32m\"exampleEmail\"\u001b[39m\n            \u001b[33mplaceholder\u001b[39m=\u001b[32m\"Kurumsal email adresi\"\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"email\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"mb-3\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<label\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"form-label\"\u001b[39m\n            \u001b[33mfor\u001b[39m=\u001b[32m\"exampleDepartman\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mDepartman\u001b[0m\n          \u001b[36m</label>\u001b[39m\n          \u001b[36m<input\u001b[39m\n            \u001b[33malue\u001b[39m=\u001b[32m\"\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"form-control\"\u001b[39m\n            \u001b[33mid\u001b[39m=\u001b[32m\"exampleDepartman\"\u001b[39m\n            \u001b[33mname\u001b[39m=\u001b[32m\"exampleDepartman\"\u001b[39m\n            \u001b[33mplaceholder\u001b[39m=\u001b[32m\"Çalıştığı departman\"\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"text\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"mb-3\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<label\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"form-label\"\u001b[39m\n            \u001b[33mfor\u001b[39m=\u001b[32m\"exampleUnvan\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mÜnvan\u001b[0m\n          \u001b[36m</label>\u001b[39m\n          \u001b[36m<input\u001b[39m\n            \u001b[33malue\u001b[39m=\u001b[32m\"\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"form-control\"\u001b[39m\n            \u001b[33mid\u001b[39m=\u001b[32m\"exampleUnvan\"\u001b[39m\n            \u001b[33mname\u001b[39m=\u001b[32m\"exampleUnvan\"\u001b[39m\n            \u001b[33mplaceholder\u001b[39m=\u001b[32m\"Çalışanın ünvanı\"\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"text\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"mb-3\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<label\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"form-label\"\u001b[39m\n            \u001b[33mfor\u001b[39m=\u001b[32m\"exampleGorev\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mTakım İçi Görevleri:\u001b[0m\n          \u001b[36m</label>\u001b[39m\n          \u001b[36m<textarea\u001b[39m\n            \u001b[33malue\u001b[39m=\u001b[32m\"\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"form-control\"\u001b[39m\n            \u001b[33mid\u001b[39m=\u001b[32m\"exampleGorev\"\u001b[39m\n            \u001b[33mname\u001b[39m=\u001b[32m\"exampleGorev\"\u001b[39m\n            \u001b[33mplaceholder\u001b[39m=\u001b[32m\"Çalışanın takım içerisindeki görev listesi\"\u001b[39m\n            \u001b[33mrows\u001b[39m=\u001b[32m\"8\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"text-center mb-3\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"btn btn-secondary\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mKaydet\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</form>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n    \u001b[36m<footer>\u001b[39m\n      \u001b[36m<p>\u001b[39m\n        \u001b[0mCopyright @ 2023\u001b[0m\n      \u001b[36m</p>\u001b[39m\n    \u001b[36m</footer>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
+          ],
+          "location": {
+            "line": 162,
+            "column": 27
+          }
+        }
+      ],
+      "startTime": 1715114215280,
+      "endTime": 1715114216505,
+      "status": "failed",
+      "message": "",
+      "name": "/home/projects/vitejs-vite-rtvxvm/src/__tests__/index.test.jsx"
+    }
+  ]
+}
