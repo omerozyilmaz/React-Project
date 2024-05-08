@@ -1,10 +1,7 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
+import React from 'react';
 
 export default function KaydedilenlerListesi(props) {
-  const deneme = () => {
-    console.log('Anasayfa butonuna tıklandı');
-  };
   return (
     <div className="saved-list">
       <h3>Kaydedilen Filmler:</h3>
@@ -14,7 +11,7 @@ export default function KaydedilenlerListesi(props) {
         </span>
       ))}
       {/* Görev 4: Anasayfa butonu ana sayfayı açmalı */}
-      <Link to="/" className="home-button" onClick={deneme}>
+      <Link to="/" className="home-button">
         Anasayfa
       </Link>
     </div>

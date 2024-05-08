@@ -6,10 +6,7 @@ export default function FilmListesi(props) {
   return (
     <div className="movie-list">
       {movies.map((movie) => (
-        <FilmDetaylari
-          key={movie.id}
-          movie={movie}
-        />
+        <FilmDetaylari key={movie.id} movie={movie} />
       ))}
     </div>
   );

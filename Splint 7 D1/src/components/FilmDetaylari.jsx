@@ -1,6 +1,4 @@
 import { NavLink } from 'react-router-dom';
-import { movies } from '../sahteVeri';
-
 export default function FilmDetayları(props) {
   const { title, director, metascore, id } = props.movie;
 
