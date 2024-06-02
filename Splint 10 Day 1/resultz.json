@@ -1,0 +1,146 @@
+{
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 11,
+  "numPassedTests": 9,
+  "numFailedTests": 2,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1717348433837,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Başlangıç operations değeri + olarak doğru ayarlanmış",
+          "status": "passed",
+          "title": "Başlangıç operations değeri + olarak doğru ayarlanmış",
+          "duration": 15,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Başlangıç memory değeri 0 olarak doğru ayarlanmış",
+          "status": "passed",
+          "title": "Başlangıç memory değeri 0 olarak doğru ayarlanmış",
+          "duration": 4,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Başlangıç total değeri 0 olarak doğru ayarlanmış",
+          "status": "passed",
+          "title": "Başlangıç total değeri 0 olarak doğru ayarlanmış",
+          "duration": 4,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " 1, 2, 3 rakamına tıklanınca ekranda 123 sayısını gösteriyor",
+          "status": "passed",
+          "title": "1, 2, 3 rakamına tıklanınca ekranda 123 sayısını gösteriyor",
+          "duration": 127,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " CE ekranı sıfırlıyor",
+          "status": "passed",
+          "title": "CE ekranı sıfırlıyor",
+          "duration": 62,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " operatörlere tıklanınca ekranda 0 görünüyor.",
+          "status": "failed",
+          "title": "operatörlere tıklanınca ekranda 0 görünüyor.",
+          "duration": 97,
+          "failureMessages": [
+            "Found multiple elements with the text: 2\n\nHere are the matching elements:\n\nIgnored nodes: comments, script, style\n\u001b[36m<span\u001b[39m\n  \u001b[33mid\u001b[39m=\u001b[32m\"memory\"\u001b[39m\n\u001b[36m>\u001b[39m\n  \u001b[36m<b>\u001b[39m\n    \u001b[0mMemory:\u001b[0m\n  \u001b[36m</b>\u001b[39m\n  \u001b[0m \u001b[0m\n  \u001b[0m2\u001b[0m\n\u001b[36m</span>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<button\u001b[39m\n  \u001b[33mclass\u001b[39m=\u001b[32m\"btn\"\u001b[39m\n  \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n  \u001b[33mvalue\u001b[39m=\u001b[32m\"2\"\u001b[39m\n\u001b[36m>\u001b[39m\n  \u001b[0m2\u001b[0m\n\u001b[36m</button>\u001b[39m\n\n(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"App\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<nav\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"navbar navbar-dark bg-dark\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<span\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"navbar-brand\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mReducer Challenge\u001b[0m\n        \u001b[36m</span>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"container row mt-5\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"col-md-12 d-flex justify-content-center\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<form\u001b[39m\n            \u001b[33mname\u001b[39m=\u001b[32m\"Cal\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"row\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"col-md-12 p-0\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<div\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"form-group\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[36m<textarea\u001b[39m\n                    \u001b[33mclass\u001b[39m=\u001b[32m\"form-control\"\u001b[39m\n                    \u001b[33mid\u001b[39m=\u001b[32m\"total\"\u001b[39m\n                    \u001b[33mname\u001b[39m=\u001b[32m\"ans\"\u001b[39m\n                    \u001b[33mreadonly\u001b[39m=\u001b[32m\"\"\u001b[39m\n                    \u001b[33mrows\u001b[39m=\u001b[32m\"1\"\u001b[39m\n                    \u001b[33mtype\u001b[39m=\u001b[32m\"text\"\u001b[39m\n                  \u001b[36m>\u001b[39m\n                    \u001b[0m0\u001b[0m\n                  \u001b[36m</textarea>\u001b[39m\n                \u001b[36m</div>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"row details\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<span\u001b[39m\n                \u001b[33mid\u001b[39m=\u001b[32m\"operation\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<b>\u001b[39m\n                  \u001b[0mOperation:\u001b[0m\n                \u001b[36m</b>\u001b[39m\n                \u001b[0m \u001b[0m\n                \u001b[0m*\u001b[0m\n              \u001b[36m</span>\u001b[39m\n              \u001b[36m<span\u001b[39m\n                \u001b[33mid\u001b[39m=\u001b[32m\"memory\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<b>\u001b[39m\n                  \u001b[0mMemory:\u001b[0m\n                \u001b[36m</b>\u001b[39m\n                \u001b[0m \u001b[0m\n                \u001b[0m2\u001b[0m\n              \u001b[36m</span>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"row\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"col-xs-4\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<button\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"btn\"\u001b[39m\n                  \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n                  \u001b[33mvalue\u001b[39m=\u001b[32m\"M+\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0mM+\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"col-xs-4\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<button\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"btn\"\u001b[39m\n                  \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n                  \u001b[33mvalue\u001b[39m=\u001b[32m\"MR\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0mMR\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"col-xs-4\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<button\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"btn\"\u001b[39m\n                  \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n                  \u001b[33mvalue\u001b[39m=\u001b[32m\"MC\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0mMC\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"row\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"col-xs-4\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<button\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"btn\"\u001b[39m\n                  \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n                  \u001b[33mvalue\u001b[39m=\u001b[32m\"1\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m1\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"col-xs-4\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<button\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"btn\"\u001b[39m\n                  \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n                  \u001b[33mvalue\u001b[39m=\u001b[32m\"2\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m2\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"col-xs-4\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<button\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"btn\"\u001b[39m\n                  \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n                  \u001b[33mvalue\u001b[39m=\u001b[32m\"3\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m3\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"row\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"col-xs-4\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<button\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"btn\"\u001b[39m\n                  \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n                  \u001b[33mvalue\u001b[39m=\u001b[32m\"4\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m4\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"col-xs-4\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<button\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"btn\"\u001b[39m\n                  \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n                  \u001b[33mvalue\u001b[39m=\u001b[32m\"5\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m5\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"col-xs-4\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<button\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"btn\"\u001b[39m\n                  \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n                  \u001b[33mvalue\u001b[39m=\u001b[32m\"6\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m6\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"row\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"col-xs-4\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<button\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"btn\"\u001b[39m\n                  \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n                  \u001b[33mvalue\u001b[39m=\u001b[32m\"7\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m7\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"col-xs-4\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<button\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"btn\"\u001b[39m\n                  \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n                  \u001b[33mvalue\u001b[39m=\u001b[32m\"8\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m8\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"col-xs-4\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<button\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"btn\"\u001b[39m\n                  \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n                  \u001b[33mvalue\u001b[39m=\u001b[32m\"9\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m9\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"row\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"col-xs-4\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<button\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"btn\"\u001b[39m\n                  \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n                  \u001b[33mvalue\u001b[39m=\u001b[32m\"+\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m+\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"col-xs-4\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<button\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"btn\"\u001b[39m\n                  \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n                  \u001b[33mvalue\u001b[39m=\u001b[32m\"0\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m0\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"col-xs-4\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<button\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"btn\"\u001b[39m\n                  \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n                  \u001b[33mvalue\u001b[39m=\u001b[32m\"-\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m-\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"row\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"col-xs-4\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<button\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"btn\"\u001b[39m\n                  \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n                  \u001b[33mvalue\u001b[39m=\u001b[32m\"*\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m*\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"col-xs-4\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<button\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"btn\"\u001b[39m\n                  \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n                  \u001b[33mvalue\u001b[39m=\u001b[32m\"/\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m/\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"col-xs-4\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<button\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"btn\"\u001b[39m\n                  \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n                  \u001b[33mvalue\u001b[39m=\u001b[32m\"CE\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0mCE\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"row eq_button\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"col-xs-4\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<button\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"btn\"\u001b[39m\n                  \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n                  \u001b[33mvalue\u001b[39m=\u001b[32m\"=\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[0m=\u001b[0m\n                \u001b[36m</button>\u001b[39m\n              \u001b[36m</div>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</form>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
+          ],
+          "location": {
+            "line": 37,
+            "column": 19
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " operatörlere tıklanınca Operation: metni doğru işlemi gösteriyor.",
+          "status": "passed",
+          "title": "operatörlere tıklanınca Operation: metni doğru işlemi gösteriyor.",
+          "duration": 104,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Memory add(M+) butonu ekrandaki değeri hafızaya(memory) aktarıyor.",
+          "status": "passed",
+          "title": "Memory add(M+) butonu ekrandaki değeri hafızaya(memory) aktarıyor.",
+          "duration": 75,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Memory clear(MC) butonu memorydeki değeri sıfırlıyor.",
+          "status": "passed",
+          "title": "Memory clear(MC) butonu memorydeki değeri sıfırlıyor.",
+          "duration": 109,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Memory recall(MR) butonu memorydeki değeri ekrana getiriyor.",
+          "status": "failed",
+          "title": "Memory recall(MR) butonu memorydeki değeri ekrana getiriyor.",
+          "duration": 131,
+          "failureMessages": [
+            "expected '0' to be '23' // Object.is equality"
+          ],
+          "location": {
+            "line": 114,
+            "column": 31
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " = ile işlemin sonucu ekrana geliyor. (23-15 = 8)",
+          "status": "passed",
+          "title": "= ile işlemin sonucu ekrana geliyor. (23-15 = 8)",
+          "duration": 166,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1717348435956,
+      "endTime": 1717348436850,
+      "status": "failed",
+      "message": "",
+      "name": "/home/projects/vitejs-vite-td265n/src/__tests__/index.test.jsx"
+    }
+  ]
+}
